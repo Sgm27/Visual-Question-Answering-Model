@@ -6,6 +6,7 @@ input an image and a yes/no question and the model will output the answer to the
 
 ## Model Architecture
 This model using ViTModel model for image feature extraction and BERT model for text feature extraction. the output of the two models is concatenated and passed through a classifier to get the answer.
+
 ![VQA](./img/img2.png)
 
 ## Technologies
